@@ -1,14 +1,14 @@
 # Computational Mathematics Software Manual
 
-##**Routine Name: ** fixPointIteration
+## **Routine Name:** fixPointIteration
 
-**Description: ** This routine represents a method for finding roots of a function.
+**Description:** This routine represents a method for finding roots of a function.
 It uses an auxilary function called function for evaluating functions at a given point.  
 
-**Input: **  It takes as an argument a string specifying the function,
+**Input:**  It takes as an argument a string specifying the function,
 a double represting our intitial guess, a tolerance and a maximum number of iterations. 
 
-**Output: ** The routine outputs a double representing the approximate location of the root. 
+**Output:** The routine outputs a double representing the approximate location of the root. 
 
 **Code Example:** In this example we find the approximate values of the roots of x*exp(-x), and 3.0*x*sin(10.0*x)/100.
 
@@ -57,11 +57,11 @@ int main(){
 
 ```
 
-**Results: ** 
+**Results:** 
 ```C++
 The root is approximately at: 1.25664
 The root is approximately at: 8.90987e-19
 ```
 
-**Last Modification Date: ** 9/19/17
-**Author: ** Thomas Hill
+**Last Modification Date:** 9/19/17
+**Author:** Thomas Hill
