@@ -1,4 +1,4 @@
-[README](./example.md)
+[README](./README.md)
 
 # Top heading
 ## Next Heading
