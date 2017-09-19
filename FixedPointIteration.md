@@ -64,4 +64,5 @@ The root is approximately at: 8.90987e-19
 ```
 
 **Last Modification Date:** 9/19/17
+
 **Author:** Thomas Hill
