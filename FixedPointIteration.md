@@ -2,8 +2,8 @@
 
 ## **Routine Name:** fixPointIteration
 
-**Description:** This routine represents a method for finding roots of a function.
-It uses an auxilary function called function for evaluating functions at a given point.  
+**Description:** This routine represents a method for finding roots of a function using fixed point or functional iteration.
+It uses an auxilary function called function for evaluating a given function at a point.  
 
 **Input:**  It takes as an argument a string specifying the function,
 a double represting our intitial guess, a tolerance and a maximum number of iterations. 
