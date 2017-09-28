@@ -61,6 +61,7 @@ This is approximately where the root of the function is: 1.5708
 Number of iterations for Newtons Method: 6
 This is approximately where the root of the function is: -9.38962e-14
 ```
+These results agree with the true value of the roots we see from plotting the functions in a computer algebra software. 
 
 **Last Modification Date:** 9/28/17
 
