@@ -39,13 +39,17 @@ double newtonMethod(string f, string deriv, double guess, double tol, int maxIte
 
 int main(){
 
+    cout << endl << "For f1: " << endl; 
+    
     newtonMethod("f1", "df1", 1.5, .00001, 1000000);
     
-    cout << endl; 
+    cout << endl << "For f2: " << endl; 
     
     newtonMethod("f2", "df2", .5, .00001, 1000000);
     
-    cout << endl; 
+    cout << endl << "For f3: " << endl; 
+    
+    newtonMethod("f3", "df3", .01, 0.00001, 1000000);
    
 }
 
@@ -55,11 +59,17 @@ int main(){
 **Results:** 
 ```C++
 
-Number of iterations Newtons Method: 4
+For f1: 
+Number of iterations for Newtons Method: 4
 This is approximately where the root of the function is: 1.5708
 
-Number of iterations Newtons Method: 6
+For f2: 
+Number of iterations for Newtons Method: 6
 This is approximately where the root of the function is: -9.38962e-14
+
+For f3: 
+Number of iterations for Newtons Method: 4
+This is approximately where the root of the function is: -2.22207e-17
 ```
 These results agree with the true value of the roots we see from plotting the functions in a computer algebra software. 
 
