@@ -46,7 +46,8 @@ int main(){
 
 **Results:** 
 ```C++
-
+1
+47.9966
 ```
 
 **Last Modification Date:** 10/4/17
