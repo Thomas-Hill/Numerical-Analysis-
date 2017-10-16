@@ -14,7 +14,7 @@
 6. [Hybrid Method of Secant and Bisection](./hybrid_secan_bisect.md)
 7. [Hybrid Method of Newton and Bisection](./hybrid_newton_bisect.md)
 
-### Linear Algebra 
+### Linear Algebra (Homework 4)
 1. [Vector 1-Norm](./vector1Norm.md)
 2. [Vector 2-Norm](./vector2Norm.md)
 3. [Vector Infinity-Norm](./vectorInfNorm.md)
