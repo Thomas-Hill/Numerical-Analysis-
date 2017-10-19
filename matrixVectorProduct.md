@@ -12,7 +12,21 @@
 and vectors.
 
 ```C++
-
+vector <double> matrixVectorProduct(vector<vector<double>> matrix, vector<double> vect){
+    vector <double> ans; 
+    for(int i = 0; i < vect.size(); i ++){
+        ans.push_back(0); 
+    }
+  
+    for(int i = 0; i < matrix.size(); i++){
+        for(int j = 0; j < vect.size(); j++){
+            ans[i] += matrix[i][j]*vect[j];
+        }
+        //cout << ans[i] << endl; 
+    }
+    
+    return ans; 
+}
 
 int main(){
 
