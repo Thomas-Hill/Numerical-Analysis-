@@ -24,18 +24,8 @@ from 0 to 100.
 
 using namespace std;
 
-void printMatrix(vector<vector<double>> a)
-{
-    for (int i=0; i<a.size(); i++)
-    {
-        for (int j=0;j<a[i].size();j++){
-            std::cout << a[i][j] << " ";
-        }
-        cout << endl;
-    }
-}
-
 vector <vector <double>> matrixMatrixProduct(vector <vector <double>> matrix1, vector <vector <double>> matrix2){
+    
     vector <vector <double>> ans; 
     int m = matrix1.size();
     int n = matrix1[0].size();
@@ -52,12 +42,14 @@ vector <vector <double>> matrixMatrixProduct(vector <vector <double>> matrix1, v
         ans[i].resize(p);
     }
     
+    #pragma omp parallel for 
     for(int i=0;i<m;i++){
         for(int j=0; j<p; j++){
             ans[i][j]=0;
         }
     }
-            
+    
+    #pragma omp parallel for         
     for(int i = 0; i < m; i++){
         for(int j = 0; j < p; j++){
             for(int k = 0; k < n; k++){
@@ -66,9 +58,9 @@ vector <vector <double>> matrixMatrixProduct(vector <vector <double>> matrix1, v
         }
     }
     
-    printMatrix(ans);
-    return ans;
+   return ans;
 }
+
 
 
 int main(){
