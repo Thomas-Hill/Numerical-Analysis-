@@ -15,7 +15,7 @@
 7. [Hybrid Method of Newton and Bisection](./hybrid_newton_bisect.md)
 
 ### Linear Algebra 
-#### (Homework 4)
+#### (Homework 5)
 1. [Vector 1-Norm](./vector1Norm.md)
 2. [Vector 2-Norm](./vector2Norm.md)
 3. [Vector Infinity-Norm](./vectorInfNorm.md)
@@ -31,7 +31,7 @@
 13. [Matrix/Vector Product](./matrixVectorProduct.md)
 14. [Matrix/Matrix Product](./matrixMatrixProduct.md)
 
-#### (Homework 5)
+#### (Homework 6)
 1. [Matrix Vector Product using OPENMP](./matrixVectorProduct_OPENMP.md)
 2. [Matrix Matrix Product using OPENMP](./matrixMatrixProduc_OPENMP.md)
 3. [LU Factorization using Scaled Partial Pivoting](./decompLU_scaledPP.md)
