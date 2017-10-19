@@ -31,3 +31,7 @@
 13. [Matrix/Vector Product](./matrixVectorProduct.md)
 14. [Matrix/Matrix Product](./matrixMatrixProduct.md)
 
+#### (Homework 5)
+1. [Matrix Vector Product using OPENMP](./matrixVectorProduct_OPENMP.md)
+2. [Matrix Matrix Product using OPENMP](./matrixMatrixProduc_OPENMP.md)
+3. [LU Factorization using Scaled Partial Pivoting](./decompLU_scaledPP.md)
