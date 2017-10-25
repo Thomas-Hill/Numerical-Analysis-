@@ -8,6 +8,10 @@ correspond to a local minimum by checking the sign of φ'', and display the loca
 points. Finally, it should determine the global minimum point(s), value, and arguments by
 minimizing over the local minimum values.
 
+Use your program from Exercise 21 to minimize
+(a) φ(x) = sin(x) and
+(b) φ(x) = −sinc(x) = −sin(x)/x
+over the interval `[-10,10]` with tol = 10e-8.  
 ## Solution: 
 Below is the code for this example along with explanatory comments.  The required examples
 given in problem 23 are tested in the main function.  
