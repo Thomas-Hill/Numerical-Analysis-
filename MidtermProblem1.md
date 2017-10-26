@@ -1,14 +1,14 @@
 # Problem 1
 Problems 21 and 23 at the end of Chapter 3.  
 
-Write a MATLAB program to minimize a smooth, scalar function in one variable φ(x) over a
+21. Write a MATLAB program to minimize a smooth, scalar function in one variable φ(x) over a
 given interval. The specifications are similar to those in Exercise 13. Your program should first
 find and display all critical points, i.e., zeros of φ'(x). Then it should determine which of these
 correspond to a local minimum by checking the sign of φ'', and display the local minimum
 points. Finally, it should determine the global minimum point(s), value, and arguments by
 minimizing over the local minimum values.
 
-Use your program from Exercise 21 to minimize
+23. Use your program from Exercise 21 to minimize
 (a) φ(x) = sin(x) and
 (b) φ(x) = −sinc(x) = −sin(x)/x
 over the interval `[-10,10]` with tol = 10e-8.  
