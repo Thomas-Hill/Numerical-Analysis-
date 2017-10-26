@@ -52,7 +52,7 @@ vector <double> elim_GaussJordan(vector <vector <double>> matrix, vector <double
             countFLOPS++;
             for(int j = k+1; j < m; j++){
                 matrix[i][j] = matrix[i][j] - l*matrix[k][j];
-                countFLOPS+=2;
+                countFLOPS+=2; //incremented by 2 since we do two floating point operations on the line above.
             }
             b[i] = b[i] - l*b[k];
             //cout << "b[i] : " << b[i] << endl; 
@@ -60,8 +60,9 @@ vector <double> elim_GaussJordan(vector <vector <double>> matrix, vector <double
         }
     }
     
+    //Here we output the number of FLOPs up to this point. 
     cout << "Count of FLOPS for Gaussian Elimination: " << countFLOPS << endl;
-    double countG = countFLOPS; 
+    double countG = countFLOPS;
     
     //Now we preform the remaining steps for Gauss-Jordan elimination. We increment
     // the count of FLOPS to represent the additional steps up to this point. 
@@ -87,8 +88,11 @@ vector <double> elim_GaussJordan(vector <vector <double>> matrix, vector <double
         solution.push_back(s);
     }
     
+    
+    //This represents the ratio of the number of FLOPS due to Guass-Jordan compared to Guassian elimination. 
     double ratio = (countGJ/countG - 1)*100; 
     
+    //Output this ratio
     cout << endl << "The Gauss-Jordan method in this example requried " << ratio << "% more FLOPS than Guassian Elimination." <<  endl; 
     
     return solution; 
@@ -96,7 +100,7 @@ vector <double> elim_GaussJordan(vector <vector <double>> matrix, vector <double
 
 
 int main(){
-    //Lets try this on a simple matrix and vector b. 
+    //Lets test this on a simple matrix and vector b. 
     vector <vector <double>> A = {{1,2},{3,4}}; 
     vector <double> b = {1,1}; 
     
@@ -122,7 +126,7 @@ int main(){
     
     cout << endl << endl; 
     
-    //finally lets try a bigger example
+    //finally lets try a bigger example with random entries from 0 to 100.  
     vector <vector <double>> D; 
     vector <double> b2; 
     
@@ -154,7 +158,7 @@ int main(){
 
 Because our code above involves some psuedo-randomness to fill the last matrix and vector, 
 the output will be slightly different on the last example each time the code is run.  
-However, the number of FLOPS will be the same.  
+However, the number of FLOPS will be the same regardless of the entries in the matrix and vector.  
 
 ```C++
 Count of FLOPS for Gaussian Elimination: 5
