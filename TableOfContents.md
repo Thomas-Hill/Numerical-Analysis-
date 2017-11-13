@@ -35,3 +35,9 @@
 1. [Matrix Vector Product using OPENMP](./matrixVectorProduct_OPENMP.md)
 2. [Matrix Matrix Product using OPENMP](./matrixMatrixProduc_OPENMP.md)
 3. [LU Factorization using Scaled Partial Pivoting](./decompLU_scaledPP.md)
+
+#### (Homework 7)
+1. [Jacobi Iteration](./JacobiIteration.md)
+2. [Gauss Seidel](./GaussSeidel.md)
+3. [Steepest Descent](./SteepestDescent.md)
+4. [Conjugate Gradient Method](./ConjugateGradient.md)
