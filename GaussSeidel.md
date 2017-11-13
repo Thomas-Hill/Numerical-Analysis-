@@ -3,7 +3,7 @@
 ## **Routine Name:** GaussSeidel
 
 **Description:** This program represents a routine for solving a linear system Ax = b
-using GaussSeidel.  
+using Gauss Seidel method.   
 
 **Input:**  The function takes as arguments a matrix (a vector of vector of doubles), 
 the right hand side of the equation (a vector of doulbes), a vector represeting an initial
