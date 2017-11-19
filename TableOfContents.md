@@ -41,3 +41,9 @@
 2. [Gauss Seidel](./GaussSeidel.md)
 3. [Steepest Descent](./SteepestDescent.md)
 4. [Conjugate Gradient Method](./ConjugateGradient.md)
+
+#### (Homework 9)
+1. [Power Iteration](./powerIteration.md)
+2. [Inverse Power Iteration](./inversePowerIteration.md)
+3. [Power Iteration using OPENMP]
+4. [Inverse Power Iteration using OPENMP] 
