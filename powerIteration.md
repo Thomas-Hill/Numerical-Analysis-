@@ -76,35 +76,6 @@ double power_iteration(vector <vector<double>> &A, vector <double> v0, double to
     
 }
 
-double inverse_power_iteration(vector <vector<double>> &A, vector <double> v0, double tol, 
-                int maxIter, vector <double> &eigVec){
-    vector <double> y = ConjugateGradient(A, v0, v0, tol, maxIter); 
-    
-    int cnt = 0; 
-    double err = 10*tol; 
-    double lambdaOld = 0.0; 
-    int m = y.size(); 
-    vector <double> x(m,0); 
-    double lambdaMax; 
-    
-    while(tol < err and cnt < maxIter){
-        double p = sqrt(dotProduct(y,y));
-        for(int i = 0; i < m; i++){
-            x[i] = y[i]/p; 
-        }
-        
-        y = ConjugateGradient(A, x, x, tol, maxIter);
-        lambdaMax = dotProduct(x,y);
-        err = abs(lambdaMax - lambdaOld); 
-        lambdaOld = lambdaMax; 
-        cnt ++; 
-    }
-    
-    eigVec = x; 
-    
-    return 1.0/lambdaMax; 
-}
-
 
 
 int main(){
@@ -160,6 +131,7 @@ Here is the eigenvector for Power Iteration:
 0.707094
 0.70712
 
+7002.42
 ```
 
 **Last Modification Date:** 11/18/2017
