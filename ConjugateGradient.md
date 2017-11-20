@@ -182,7 +182,7 @@ int main(){
 ```
 
 **Results:** Below are the results of running the main function.  We see that the solution
-for the simple 5x5 example matches results obtained in MAPLE.  Then we see that after 33
+for the simple 5x5 example matches results obtained in MAPLE.  Then we see that after 6
 iterations we are below our specified tolerance.  
 
 ```C++
