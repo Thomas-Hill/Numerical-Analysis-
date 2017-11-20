@@ -9,7 +9,7 @@ the eigenvalues and eigenvectors of a matrix.
 the eigenvector, a double which represents the tolerance, an integer representing maximum
 number iterations, a vector representing the eigenvector.  
 
-**Output:** The function outputs the largest eigenvalue.  
+**Output:** The function outputs the smallest eigenvalue.  
 
 **Code Example:**  Below we run the code an example of the routine on a small matrix to 
 verify that it is working on a 2x2.  Then we fill a 1000x1000 matrix with random values
