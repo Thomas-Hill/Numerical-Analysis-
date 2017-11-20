@@ -43,13 +43,13 @@
 4. [Conjugate Gradient Method](./ConjugateGradient.md)
 
 #### (Homework 8)
-1. [Jacobi Iteration](./JacobiIteration_OPENMP.md)
-2. [Gauss Seidel](./GaussSeidel_OPENMP.md)
-3. [Steepest Descent](./SteepestDescent_OPENMP.md)
-4. [Conjugate Gradient Method](./ConjugateGradient_OPENMP.md)
+1. [Jacobi Iteration using OPENMP](./JacobiIteration_OPENMP.md)
+2. [Gauss Seidel using OPENMP](./GaussSeidel_OPENMP.md)
+3. [Steepest Descent using OPENMP](./SteepestDescent_OPENMP.md)
+4. [Conjugate Gradient Method using OPENMP](./ConjugateGradient_OPENMP.md)
 
 #### (Homework 9)
 1. [Power Iteration](./powerIteration.md)
 2. [Inverse Power Iteration](./inversePowerIteration.md)
-3. [Power Iteration using OPENMP]
-4. [Inverse Power Iteration using OPENMP] 
+3. [Power Iteration using OPENMP](./power_iteration_OPENMP.md)
+4. [Inverse Power Iteration using OPENMP](./inverse_power_iteration_OPENMP.md)
