@@ -3,13 +3,13 @@
 ## **Routine Name:** inverse_power_iteration
 
 **Description:** This is a routine which represents the inverse power iteration method for finding 
-the eigenvalues and eigenvectors of a matrix.  
+smalles of the eigenvalues and corresponding eigenvectors of a matrix.  
 
 **Input:**  Takes as an argument a matrix, a vector which represents an intial guess to
 the eigenvector, a double which represents the tolerance, an integer representing maximum
 number iterations, a vector representing the eigenvector.  
 
-**Output:** The function outputs the largest eigenvalue.  
+**Output:** The function outputs the smallest eigenvalue.  
 
 **Code Example:**  Below we run the code an example of the routine on a small matrix to 
 verify that it is working on a 2x2.  Then we fill a 1000x1000 matrix with random values
