@@ -53,3 +53,8 @@
 2. [Inverse Power Iteration](./inversePowerIteration.md)
 3. [Power Iteration using OPENMP](./power_iteration_OPENMP.md)
 4. [Inverse Power Iteration using OPENMP](./inverse_power_iteration_OPENMP.md)
+
+### Polynomial Interpolation
+#### (Homework 10)
+1. [Divided Difference Table](./divDiffTable.md)
+2. [Evaluate Interpolating Polynomial (example of Runge's Phenomena)](./InterPoly.md)
