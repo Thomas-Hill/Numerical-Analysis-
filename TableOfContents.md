@@ -3,10 +3,13 @@
 ## Table of Contents
 
 ### Precision
+1. [Single Precision](./getSinglePrecision.md)
+2. [Double Precision](./getDoublePrecision.md)
+3. [Absolute Error](./absoluteError.md)
+4. [Relative Error](./relativeError.md)
 
-
-### Root Finding
-1. [Bisection](./bisect.md)
+### Root Finding Methods 
+1. [Bisection Method](./bisect.md)
 2. [Fixed Point Iteration](./FixedPointIteration.md)
 3. [Newton Method (Fast Running)](./NewtonMethodfastrun.md)
 4. [Newton Method (With Checks)](./newtonMethod_withCheck.md)
@@ -15,7 +18,7 @@
 7. [Hybrid Method of Newton and Bisection](./hybrid_newton_bisect.md)
 
 ### Linear Algebra 
-#### (Homework 5)
+#### General Linear Algebra (Homework 5)
 1. [Vector 1-Norm](./vector1Norm.md)
 2. [Vector 2-Norm](./vector2Norm.md)
 3. [Vector Infinity-Norm](./vectorInfNorm.md)
@@ -31,24 +34,24 @@
 13. [Matrix/Vector Product](./matrixVectorProduct.md)
 14. [Matrix/Matrix Product](./matrixMatrixProduct.md)
 
-#### (Homework 6)
+#### Paralellization of General Linear Algebra (Homework 6)
 1. [Matrix Vector Product using OPENMP](./matrixVectorProduct_OPENMP.md)
 2. [Matrix Matrix Product using OPENMP](./matrixMatrixProduc_OPENMP.md)
 3. [LU Factorization using Scaled Partial Pivoting](./decompLU_scaledPP.md)
 
-#### (Homework 7)
+#### Methods for Solving Linear Systems (Homework 7)
 1. [Jacobi Iteration](./JacobiIteration.md)
 2. [Gauss Seidel](./GaussSeidel.md)
 3. [Steepest Descent](./SteepestDescent.md)
 4. [Conjugate Gradient Method](./ConjugateGradient.md)
 
-#### (Homework 8)
+#### Parallelization For Methods of Solving Linear Systems (Homework 8)
 1. [Jacobi Iteration using OPENMP](./JacobiIteration_OPENMP.md)
 2. [Gauss Seidel using OPENMP](./GaussSeidel_OPENMP.md)
 3. [Steepest Descent using OPENMP](./SteepestDescent_OPENMP.md)
 4. [Conjugate Gradient Method using OPENMP](./ConjugateGradient_OPENMP.md)
 
-#### (Homework 9)
+#### Methods for Finding Eigenvalues (including paralellized code). (Homework 9)
 1. [Power Iteration](./powerIteration.md)
 2. [Inverse Power Iteration](./inversePowerIteration.md)
 3. [Power Iteration using OPENMP](./power_iteration_OPENMP.md)
@@ -58,3 +61,7 @@
 #### (Homework 10)
 1. [Divided Difference Table](./divDiffTable.md)
 2. [Evaluate Interpolating Polynomial (example of Runge's Phenomena)](./InterPoly.md)
+
+### Fourier Transforms
+#### (Homework 11)
+1. [Fast Fourier Transform] (to be included)
