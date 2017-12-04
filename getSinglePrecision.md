@@ -54,3 +54,5 @@ This result indicates that for single precision the machine will keep track of r
 **Last Modification Date:** 12/4/2017
 
 **Author:** Thomas Hill
+
+[TABLE OF CONTENTS](./TABLEOFCONTENTS.md)
