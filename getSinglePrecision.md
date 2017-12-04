@@ -55,4 +55,4 @@ This result indicates that for single precision the machine will keep track of r
 
 **Author:** Thomas Hill
 
-[TABLE OF CONTENTS](./TABLEOFCONTENTS.md)
+Return to [TABLE OF CONTENTS](./TableOfContents.md)
