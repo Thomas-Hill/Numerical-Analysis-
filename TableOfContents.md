@@ -34,7 +34,7 @@
 13. [Matrix/Vector Product](./matrixVectorProduct.md)
 14. [Matrix/Matrix Product](./matrixMatrixProduct.md)
 
-#### Paralellization of General Linear Algebra (Homework 6)
+#### Parallelization of General Linear Algebra (Homework 6)
 1. [Matrix Vector Product using OPENMP](./matrixVectorProduct_OPENMP.md)
 2. [Matrix Matrix Product using OPENMP](./matrixMatrixProduc_OPENMP.md)
 3. [LU Factorization using Scaled Partial Pivoting](./decompLU_scaledPP.md)
@@ -51,7 +51,7 @@
 3. [Steepest Descent using OPENMP](./SteepestDescent_OPENMP.md)
 4. [Conjugate Gradient Method using OPENMP](./ConjugateGradient_OPENMP.md)
 
-#### Methods for Finding Eigenvalues (including paralellized code). (Homework 9)
+#### Methods for Finding Eigenvalues (including parallelized code). (Homework 9)
 1. [Power Iteration](./powerIteration.md)
 2. [Inverse Power Iteration](./inversePowerIteration.md)
 3. [Power Iteration using OPENMP](./power_iteration_OPENMP.md)
