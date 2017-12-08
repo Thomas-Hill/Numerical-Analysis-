@@ -168,4 +168,4 @@ ifft
 
 **Last Modification Date:** 12/8/2017
 
-**Author:** Thomas Hill
+**Author:** Thomas Hill/Rosetta Code 
