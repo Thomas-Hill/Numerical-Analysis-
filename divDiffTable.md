@@ -31,12 +31,12 @@ vector <double> divDiffTable(vector <double> x, vector <double> y){
         table[i][1] = y[i]; 
     }
     
+    int k = 1; 
     for(int i = 2; i < n + 1; i++){
-        for(int k = 1; k < n; k++){
-            for(int j = k; j < n; j++){
+        for(int j = k; j < n; j++){
                 table[j][i] = (table[j][i-1] - table[j-1][i-1])/(table[j][0] - table[j-k][0]);
-            }
         }
+        k++; 
     }
     
 
